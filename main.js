@@ -12,13 +12,5 @@ async function getws () {
 
 var w = getws ();
 w.then (function (value) {
-    console.log ("value: ");
-    console.log (value);
-    
-    for (i in value) {
-	console.log (i);
-    }
-    
-    console.log (value.instance.exports.add(2,3));
-
+    console.log (value.instance.exports.add(3,4));
 });
